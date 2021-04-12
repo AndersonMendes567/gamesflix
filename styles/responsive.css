@@ -1,0 +1,49 @@
+/*responsiviidade:*/
+/**quando a tela do dispositivo for até 700px**/
+@media screen and (max-width: 700px){
+    header .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .jogo-principal .botoes
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao
+    {
+        margin-top: 10px;
+        height: 70px;
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer small:first-child
+    {
+        margin: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    footer small:last-child
+    {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/**quando a tela do dispositivo for mais que 700px:**/
+@media screen and (min-width: 701px){
+    .jogo-principal .descricao
+    {
+        width: 60%;
+    }
+}
