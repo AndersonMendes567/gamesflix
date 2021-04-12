@@ -3,7 +3,7 @@ Interface da página inicial de um loja de games fictícia. Uma personalização
 
 ## Mais sobre o projeto:
 A ideia inicial do projeto era fazer um clone da interface da página inicial da Netflix.
-O rojeto faz parte do Bootcamp HTML Developer da Digital Inovation One.
+O projeto faz parte do Bootcamp HTML Developer da Digital Inovation One.
 Nessa implementação eu alterei a ideia para uma loja de games mas, particamente o mesmo leiaute.
 O projeto também é responsivo.
 
