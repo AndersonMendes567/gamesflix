@@ -24,25 +24,13 @@ body
     color: white;
 }
 
-.wrapper
-{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.content
-{
-    margin-bottom: 100px;
-}
-
 header .container
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-right: 20px;
 }
 
 header .container a
@@ -55,12 +43,18 @@ header .logo
     /*utilizando a variável*/
     color: var(--azul-primario);
     font-size: 40px;
+    line-height: 60px;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
 }
 
 header nav a
 {
     color: #aaa;
-    margin-left: 10px;
 }
 
 header nav a:hover
@@ -68,11 +62,6 @@ header nav a:hover
     cursor: pointer;
     color: #fff;
     transition: 200ms;
-}
-
-header nav a:last-child
-{
-    margin-right: 20px;
 }
 
 /* Jogo Principal */
@@ -93,18 +82,6 @@ main .jogo-principal
     margin-left: 20px;
 }
 
-.sobre-resumido
-{
-    background-color: #fff;
-}
-
-.sobre-resumido p
-{
-    text-align: center;
-    color: var(--azul-secundario);
-    padding: 20px;
-}
-
 .jogo-principal .container 
 {
     width: 70%;
@@ -122,7 +99,9 @@ main .jogo-principal
 
 .jogo-principal .descricao
 {
+    margin-top: 10px;
     margin-bottom: 40px;
+    line-height: 20px;
     text-align: justify;
 }
 
@@ -161,13 +140,16 @@ button.botao
 
 h3
 {
-    padding: 20px 10px 5px 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 30px;
+    padding: 20px 0px 10px 0px;
     color: #fff;
 }
 
 .carrosel-jogos
 {
     padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 .box-game
@@ -186,12 +168,12 @@ footer
     justify-content: center;
 }
 
-footer small:first-child
+footer p:first-child
 {
     margin: 0 25px 0 0;
 }
 
-footer small:last-child
+footer p:last-child
 {
     margin: 0 0 0 25px;
 }

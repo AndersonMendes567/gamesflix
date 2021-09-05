@@ -26,14 +26,14 @@
         align-items: center;
     }
 
-    footer small:first-child
+    footer p:first-child
     {
         margin: 0;
         margin-bottom: 20px;
         text-align: center;
     }
 
-    footer small:last-child
+    footer p:last-child
     {
         margin: 0;
         text-align: center;
